@@ -1,0 +1,56 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<!DOCTYPE html>
+
+
+<html>
+
+<head>
+    <title>Appraisal Form</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <div id=”wrapper”>
+        <form method=”post” action=”” class=”form”>
+             <h2>Appraisal Form</h2>
+            <div class=”content”>
+                <div class=”element”>
+                    <label id=”label”>Employee ID</label>               @*/****LABEL 1 ****/*@
+                    <input type=”text” name=”uID”>   @*/****TEXTBOX 1****/*@
+                </div>
+                <div class=”element”>
+                    <label id=”label”>Employee Name</label>   @*/****LABEL 2****/*@
+                    <input type=”text” name=”uName”>   @*/****TEXTBOX 2****/*@
+                </div>
+            </div>
+        </form>
+    </div>
+    <form >
+        <br /> 
+        <br />
+        <br />
+
+    </form>
+
+    <form action="/action_page.php">
+        <select name="--Select--">
+            <option value="Development">Development</option>
+            <option value="Operational">Operational</option>
+        </select>
+        <br><br>
+        <br />
+        <select name="Courses">
+            <option value="Java">Java</option>
+            <option value="Oracle">Oracle</option>
+        </select>
+        <input type="button">
+    </form>
+
+</body>
+</html>
+
+
